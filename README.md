@@ -55,3 +55,14 @@
 22. Created a Dual-Axis Plot with the following axes items:
      - Axes One contains: Volumetric Flow Meter 2, Pump Efficiency and Horse Power 
      - Axes Two contains: Pump Failure (1 or 0) and Prediction
+
+**Questions Answered:**
+1. When looking at the Descriptive Statistics for both datasets; pay attention specifically to the standard deviation and mean. 
+What do you observe when you compare the dataframe_raw standard deviation and mean, versus the dataframe_stdev standard deviation and mean?
+    - When looking at the standard deviation (std) and the mean values for both the dataframe_raw data and dataframe_stdev data, it appears as though the std and mean vary greatly from each other, which implies that the data is not reliable.
+2. What can be observed from the boxplot and line plots for both the dataframe_raw and dataframe_stdev datasets?
+     - Although the raw data looks fairly stable with its values and quartile ditribution, the stdev data shows a higher number of outliers (especially with pump torque), which could lead to misinterpretation of the dataset. 
+3. What can be noticed when comparing the dataset in this manner?
+     - There are a lot of outliers in all of the boxplots, particularly in the Stdev Pump Normal. Scattered data points like this can lead to erroneous conclusions.
+4. Are there any particular trends when looking at the data in this way? Has it made it easier to see which variables *might* be reacting more strongly to the Pump Failure than others?
+     - All of the variables are being affected by Pump Failure, especially Pump Speed, Pump Torque, Ambient Temperature, and Horsepower (as made evident by the spikes in measured values during Pump Failure). There is also small spike, followed by a sudden drop in Volumentric Flow Meters 1 and 2, and Pump Efficiency.
