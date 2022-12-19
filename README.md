@@ -8,6 +8,16 @@
 - Numpy
 - statsmodel.api
 
+**Python Skills Used:**
+- Create Line Plots and Box Plots 
+- Understand Descriptive Statistics from the .describe() Functions
+- Detect and Remove Outliers from the Dataset
+- Subset and Filter DataFrames 
+- Use For Loops to Loop Through Data
+- Use Dual Axes to Plot Multiple Variables on Different Axes 
+- Interpret Correlation Coefficients and Heatmaps
+- Create and Assess the Quality of 'Fit' for Linear Regression Models 
+
 **Tasks Completed:**
 
 1. Imported each of the two data sources and stored them into their individual DataFrames. 
